@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Lab1 Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css_index.css">
+    <!--<style>
+        p
+        {
+            border-style:dashed;
+            border-color:darkblue;
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+            font-size: 16pt;
+            text-align: center;
+        }
+        p > strong
+        {
+            color:maroon;
+        }
+
+    </style>-->
+    </head>
+    <body>
+    
+    <h2>Содержание</h2>
+    <ul id="page-content">
+        <li><a href="#text">Абзац</a></li>
+        <li><a href="#list">Структура универа</a></li>
+        <li><a href="#table">Курсы валют</a></li>
+        <li><a href="#form">Опрос</a></li>
+    </ul>
+   
+    
+    <a name = "text" id = "text"></a>
+
+    <p>Для любого натурального числа <strong>n&gt;2</strong> уравнение a<sup>n</sup> + b<sup>n</sup> = c<sup>n</sup> <strong>не имеет решений</strong>
+    при целых ненулевых числах a, b, c.</p>
+
+    <a name = "list" id = "list"></a>
+
+    <br>
+    <h1>Структура университета</h1>
+    <ul style = "float: left;" class = "univer-info">
+        <li>
+            <strong>КН</strong>
+            <ul>
+                <li>ІУС</li>
+                <li>ШІ</li>
+                <li>СТ</li>
+                <li>ПІ</li>
+                <li>МСТ</li>
+            </ul>
+        </li>
+        <li>
+            <strong>КІУ</strong>
+            <ul>    
+                <li>КІТС</li>
+                <li>ЕОМ</li>
+                <li>АПОТ</li>
+                <li>БІТ</li>
+                <li>Філ</li>
+            </ul>
+        </li>
+        <li>
+            <strong>АКТ</strong>
+            <ul>
+                <li>КІТАМ</li>
+                <li>ПЕЕА</li>
+                <li>ФІЗ</li>
+                <li>ОП</li>
+            </ul>
+        </li>
+        <li>
+            <strong>ІТМ</strong>
+            <ul>
+                <li>ІНФ</li>
+                <li>ПМ</li>
+                <li>ВМ</li>
+                <li>ЕК</li>
+                <li>СІ</li>
+            </ul>
+        </li>
+        <li>
+            <strong>ІК</strong>
+            <ul>
+                <li>ІКІ</li>
+                <li>ІМІ</li>
+                <li>МТЕ</li>
+            </ul>
+        </li>
+        <li>
+            <strong>ЕЛБІ</strong>
+            <ul>
+                <li>БМІ</li>
+                <li>МЕЕПП</li>
+                <li>ФОЕТ</li>
+                <li>ФВС</li>
+            </ul>
+        </li>
+        <li>
+            <strong>ІРТЗІ</strong>
+            <ul>
+                <li>МТС</li>
+                <li>КРіСТЗІ</li>
+                <li>РТІКС</li>
+                <li>МІРЕС</li>
+                <li>Іноз</li>
+            </ul>
+        </li>
+        <li>
+            <strong>ФНІГ</strong>
+            <ul>
+                <li>МП</li>
+                <li>ПрН</li>
+                <li>Укр</li>
+            </ul>
+        </li>
+    </ul>
+
+    <br>
+
+    <a name = "table" id = "table"></a>
+
+    <table border="1" style = "float: right; " id = "exchange-rate">
+        <caption>Курсы валют</caption>
+        
+        <tr>
+            <td></td>
+            <th>Покупка</th>
+            <th>Продажа</th>
+        </tr>
+        <tr>
+            <th>Доллар</th>
+            <td>24.90</td>
+            <td>25.24</td>
+        </tr>
+        <tr>
+            <th>Евро</th>
+            <td>27.55</td>
+            <td>28.15</td>
+        </tr>
+        <tr>
+            <th>Рубль</th>
+            <td>0.365</td>
+            <td>0.397</td>
+        </tr>
+    </table>
+      <a name = "form" id = "form"></a>
+    
+
+        <form style = "
+                        position: relative;
+                        top: 25px;
+                        float: right; 
+                        clear: right; 
+                        padding-top: 25px;
+                        border-width: 5px;
+                        border-style: double;
+                        border-color: darkblue;
+                        background-color: lightgreen;"
+                 id = "messenger">
+            <strong>Предпочитаемый мессенджер:</strong>
+            <br>
+            <input type="radio", name = "message", value = "telegram">Телеграм<br><br>
+            <input type="radio", name = "message", value = "viber">Viber<br><br>
+            <input type="radio", name = "message", value = "WhatsApp">WhatsApp<br><br>
+        
+            
+        
+            <input type="submit">
+      
